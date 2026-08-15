@@ -1,0 +1,76 @@
+{
+  "name": "Testimonial",
+  "type": "testimonial",
+  "displayNameKey": "name",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "name",
+      "name": "Customer Name",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "location",
+      "name": "Location",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "avatar",
+      "name": "Avatar",
+      "type": "file_reference",
+      "required": false,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "rating",
+      "name": "Rating",
+      "type": "number_integer",
+      "required": true,
+      "validations": [
+        {
+          "name": "min",
+          "value": "1"
+        },
+        {
+          "name": "max",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "key": "text",
+      "name": "Review Text",
+      "type": "multi_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "product",
+      "name": "Product",
+      "type": "product_reference",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "verified",
+      "name": "Verified Purchase",
+      "type": "boolean",
+      "required": false,
+      "validations": []
+    }
+  ]
+}

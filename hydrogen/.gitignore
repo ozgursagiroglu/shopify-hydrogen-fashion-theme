@@ -1,0 +1,35 @@
+node_modules
+
+# Environment — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Build output
+/.cache
+/build
+/dist
+/public/build
+/.mf
+storybook-static
+
+# Framework / tooling caches
+.shopify
+.react-router
+.wrangler
+*.tsbuildinfo
+
+# Tests & coverage
+/coverage
+/test-results/
+/e2e/playwright-report/
+/e2e/test-results/
+
+# Logs
+*.log
+
+# Editors & OS
+.cursor/
+.idea/
+.vscode/
+.DS_Store

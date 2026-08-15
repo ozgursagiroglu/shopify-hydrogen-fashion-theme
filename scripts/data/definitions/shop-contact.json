@@ -1,0 +1,37 @@
+{
+  "namespace": "contact",
+  "name": "Contact Information",
+  "description": "Store contact information displayed in footer and contact page",
+  "fieldDefinitions": [
+    {
+      "key": "title",
+      "name": "Contact Section Title",
+      "type": "single_line_text_field"
+    },
+    {
+      "key": "email",
+      "name": "Email Address",
+      "type": "single_line_text_field"
+    },
+    {
+      "key": "phone",
+      "name": "Phone Number",
+      "type": "single_line_text_field"
+    },
+    {
+      "key": "hours",
+      "name": "Business Hours",
+      "type": "single_line_text_field"
+    },
+    {
+      "key": "address",
+      "name": "Physical Address",
+      "type": "multi_line_text_field"
+    },
+    {
+      "key": "address_url",
+      "name": "Address Map URL",
+      "type": "url"
+    }
+  ]
+}

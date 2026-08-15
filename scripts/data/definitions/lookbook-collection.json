@@ -1,0 +1,96 @@
+{
+  "name": "Lookbook Collection",
+  "type": "lookbook_collection",
+  "displayNameKey": "title",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "title",
+      "name": "Collection Title",
+      "description": "Name of the lookbook collection (e.g., 'Spring/Summer 2025')",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "subtitle",
+      "name": "Subtitle",
+      "description": "Supporting description or tagline",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "description": "Detailed description of the collection theme",
+      "type": "multi_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "hero_image",
+      "name": "Hero Image",
+      "description": "Main image for the collection",
+      "type": "file_reference",
+      "required": false,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "season",
+      "name": "Season",
+      "description": "Season identifier (e.g., 'SS25', 'AW24')",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "year",
+      "name": "Year",
+      "description": "Year of the collection",
+      "type": "number_integer",
+      "required": false,
+      "validations": [
+        {
+          "name": "min",
+          "value": "2020"
+        },
+        {
+          "name": "max",
+          "value": "2030"
+        }
+      ]
+    },
+    {
+      "key": "featured",
+      "name": "Featured",
+      "description": "Show this collection prominently",
+      "type": "boolean",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "order",
+      "name": "Display Order",
+      "description": "Order in which collections appear",
+      "type": "number_integer",
+      "required": false,
+      "validations": [
+        {
+          "name": "min",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

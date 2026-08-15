@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "env.d.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "app/**/*.d.ts",
+    "test/**/*.ts",
+    "test/**/*.tsx",
+    "*.ts",
+    "*.tsx",
+    "*.d.ts",
+    ".graphqlrc.ts",
+    ".react-router/types/**/*"
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "verbatimModuleSyntax": false,
+    "types": [
+      "@shopify/oxygen-workers-types",
+      "react-router",
+      "@shopify/hydrogen/react-router-types",
+      "vite/client",
+      "@testing-library/jest-dom"
+    ]
+  }
+}

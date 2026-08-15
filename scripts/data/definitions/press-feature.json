@@ -1,0 +1,53 @@
+{
+  "name": "Press Feature",
+  "type": "press_feature",
+  "displayNameKey": "name",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "name",
+      "name": "Publication Name",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "logo_text",
+      "name": "Logo Text",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "logo_image",
+      "name": "Logo Image",
+      "type": "file_reference",
+      "required": false,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "quote",
+      "name": "Quote",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "is_featured",
+      "name": "Is Featured",
+      "type": "boolean",
+      "required": false,
+      "validations": []
+    }
+  ]
+}

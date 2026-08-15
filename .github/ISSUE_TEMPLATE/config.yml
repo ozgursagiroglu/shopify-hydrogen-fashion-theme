@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme/discussions
+    about: Ask setup, customization, or usage questions here.
+  - name: Security vulnerability
+    url: https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme/security/advisories/new
+    about: Report privately. Do not open a public issue.
+  - name: Shopify Hydrogen documentation
+    url: https://shopify.dev/docs/storefronts/headless/hydrogen
+    about: For questions about Hydrogen itself rather than this theme.

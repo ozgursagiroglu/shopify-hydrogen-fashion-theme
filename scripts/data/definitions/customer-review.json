@@ -1,0 +1,100 @@
+{
+  "name": "Customer Review",
+  "type": "customer_review",
+  "displayNameKey": "title",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "product",
+      "name": "Product",
+      "type": "product_reference",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "rating",
+      "name": "Rating",
+      "description": "Rating from 1 to 5 stars",
+      "type": "number_integer",
+      "required": true,
+      "validations": [
+        {
+          "name": "min",
+          "value": "1"
+        },
+        {
+          "name": "max",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "key": "title",
+      "name": "Review Title",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "content",
+      "name": "Review Content",
+      "type": "multi_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "author_name",
+      "name": "Author Name",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "author_email",
+      "name": "Author Email",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "verified",
+      "name": "Verified Purchase",
+      "type": "boolean",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "customer_id",
+      "name": "Customer ID",
+      "description": "ID of the customer who wrote the review",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "status",
+      "name": "Status",
+      "description": "Moderation status of the review",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": [
+        {
+          "name": "choices",
+          "value": "[\"pending\", \"approved\", \"rejected\"]"
+        }
+      ]
+    },
+    {
+      "key": "created_at",
+      "name": "Created At",
+      "type": "date",
+      "required": false,
+      "validations": []
+    }
+  ]
+}

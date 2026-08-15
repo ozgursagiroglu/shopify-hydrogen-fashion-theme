@@ -1,0 +1,66 @@
+{
+  "name": "Contact Submission",
+  "type": "contact_submission",
+  "displayNameKey": "subject",
+  "storefrontAccess": "NONE",
+  "capabilities": {
+    "translatable": {
+      "enabled": false
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "name",
+      "name": "Customer Name",
+      "description": "Name of the person submitting the contact form",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "email",
+      "name": "Email Address",
+      "description": "Contact email address",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "subject",
+      "name": "Subject",
+      "description": "Subject of the message",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "message",
+      "name": "Message",
+      "description": "Message content",
+      "type": "multi_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "status",
+      "name": "Status",
+      "description": "Current status of the contact submission",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": [
+        {
+          "name": "choices",
+          "value": "[\"new\", \"read\", \"replied\"]"
+        }
+      ]
+    },
+    {
+      "key": "created_at",
+      "name": "Submission Date",
+      "description": "Date when the form was submitted",
+      "type": "date",
+      "required": true,
+      "validations": []
+    }
+  ]
+}

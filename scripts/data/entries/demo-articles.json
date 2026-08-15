@@ -1,0 +1,239 @@
+{
+  "blog": "journal",
+  "articles": [
+    {
+      "title": "10 Autumn Wardrobe Essentials You Need This Season",
+      "handle": "autumn-wardrobe-essentials",
+      "author": "Sophie Chen",
+      "body_html": "<p>Autumn is more than just a season—it's a state of mind. As temperatures cool and days shorten, our wardrobes transform to embrace layers, textures, and rich earthy tones.</p><p>This season, we're focusing on investment pieces that will serve you for years to come. From classic trench coats to cashmere knits, each item in our <a href='/collections/autumn'>Autumn Collection</a> has been carefully selected for its versatility and timeless appeal.</p><h2>The Essential Pieces</h2><ol><li><strong>The Perfect Trench Coat</strong> - A water-resistant classic in camel or black</li><li><strong>Cashmere Sweater</strong> - Invest in quality that lasts</li><li><strong>Tailored Wool Blazer</strong> - From <a href='/collections/workwear'>office</a> to evening</li><li><strong>Wide-Leg Trousers</strong> - Comfortable elegance</li><li><strong>Leather Ankle Boots</strong> - The foundation of every autumn outfit</li></ol><p>Browse our full <a href='/collections/autumn'>Autumn Collection</a> to discover more seasonal favorites.</p>",
+      "published_at": "2024-09-15T10:00:00Z",
+      "summary_html": "<p>As the leaves begin to turn, it's time to refresh your wardrobe with timeless autumn pieces. Discover our curated selection of seasonal must-haves.</p>",
+      "tags": "autumn, wardrobe essentials, seasonal style, Seasonal Trends",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=1200&q=80",
+        "alt": "Autumn fashion essentials"
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "author_role",
+          "value": "Style Editor",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "reading_time",
+          "value": "5",
+          "type": "number_integer"
+        },
+        {
+          "namespace": "custom",
+          "key": "featured",
+          "value": "true",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "category",
+          "value": "Seasonal Trends",
+          "type": "single_line_text_field"
+        }
+      ]
+    },
+    {
+      "title": "A Beginner's Guide to Building a Sustainable Wardrobe",
+      "handle": "sustainable-fashion-guide",
+      "author": "Emma Laurent",
+      "body_html": "<p>Sustainable fashion isn't just a trend—it's a responsibility. At ÉLAN, we believe that beautiful clothing shouldn't come at the expense of our planet.</p><h2>The Principles of Sustainable Fashion</h2><p>Building a sustainable wardrobe is about making intentional choices. It means investing in quality over quantity, choosing timeless pieces over fast fashion, and understanding the impact of our purchases.</p><h2>How to Start</h2><ul><li>Audit your current wardrobe</li><li>Identify gaps with versatile pieces</li><li>Invest in quality materials that last</li><li>Choose brands committed to sustainability</li><li>Care for your clothes properly</li></ul><p>Learn more about our commitment to sustainability on our <a href='/pages/sustainability'>Sustainability page</a>, and explore our eco-conscious <a href='/collections/women'>Women's</a> and <a href='/collections/men'>Men's</a> collections.</p>",
+      "published_at": "2024-10-02T10:00:00Z",
+      "summary_html": "<p>Discover how to make more conscious fashion choices without compromising on style. Your journey to a sustainable wardrobe starts here.</p>",
+      "tags": "sustainability, eco-friendly, conscious fashion, Sustainability",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200&q=80",
+        "alt": "Sustainable fashion guide"
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "author_role",
+          "value": "Sustainability Lead",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "reading_time",
+          "value": "7",
+          "type": "number_integer"
+        },
+        {
+          "namespace": "custom",
+          "key": "featured",
+          "value": "true",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "category",
+          "value": "Sustainability",
+          "type": "single_line_text_field"
+        }
+      ]
+    },
+    {
+      "title": "From Office to Evening: 5 Effortless Styling Tips",
+      "handle": "office-to-evening-styling",
+      "author": "Isabella Martinez",
+      "body_html": "<p>The modern professional needs a wardrobe that works as hard as they do. Our <a href='/collections/workwear'>Workwear Collection</a> is designed with versatility in mind—pieces that transition seamlessly from office to evening.</p><h2>5 Quick Styling Tips</h2><ol><li><strong>The Power of Accessories</strong> - Swap your work tote for a structured clutch</li><li><strong>Layer Strategically</strong> - Remove your blazer to reveal a silk camisole</li><li><strong>Statement Jewelry</strong> - Add bold earrings or a necklace</li><li><strong>Change Your Shoes</strong> - Heels instantly elevate any look</li><li><strong>Lipstick Matters</strong> - A bold lip transforms your entire appearance</li></ol><p>Shop versatile pieces in our <a href='/collections/workwear'>Workwear</a> and <a href='/collections/dresses'>Dresses</a> collections.</p>",
+      "published_at": "2024-10-18T10:00:00Z",
+      "summary_html": "<p>Master the art of transitional dressing with these simple styling tricks that take you from desk to dinner.</p>",
+      "tags": "styling tips, workwear, versatile fashion, Style Guide",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1200&q=80",
+        "alt": "Office to evening styling tips"
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "author_role",
+          "value": "Senior Stylist",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "reading_time",
+          "value": "4",
+          "type": "number_integer"
+        },
+        {
+          "namespace": "custom",
+          "key": "featured",
+          "value": "false",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "category",
+          "value": "Style Guide",
+          "type": "single_line_text_field"
+        }
+      ]
+    },
+    {
+      "title": "Behind the Scenes: A Day in Our Atelier",
+      "handle": "behind-scenes-atelier",
+      "author": "Alexandre Dubois",
+      "body_html": "<p>Every ÉLAN piece begins with an idea—a sketch, a fabric swatch, a vision of timeless elegance. Today, we're taking you behind the scenes to meet the artisans who bring our designs to life.</p><h2>The Design Process</h2><p>Our creative process begins months before a collection reaches your wardrobe. From initial sketches to final fittings, each piece undergoes rigorous refinement to ensure it meets our exacting standards.</p><h2>Meet the Team</h2><p>Our atelier is home to skilled pattern makers, tailors, and artisans who have dedicated their careers to the craft of garment making. Their expertise and attention to detail are what set ÉLAN apart.</p><p>Discover the results of their work in our latest collections: <a href='/collections/women'>Women</a> | <a href='/collections/men'>Men</a> | <a href='/collections/new-in'>New Arrivals</a></p><p>Read more about <a href='/about'>our story and values</a>.</p>",
+      "published_at": "2024-11-05T10:00:00Z",
+      "summary_html": "<p>Step inside our design studio and discover the craftsmanship and care that goes into every ÉLAN piece.</p>",
+      "tags": "craftsmanship, design process, atelier, Behind the Scenes",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1475180098004-ca77a66827be?w=1200&q=80",
+        "alt": "Behind the scenes in our atelier"
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "author_role",
+          "value": "Creative Director",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "reading_time",
+          "value": "6",
+          "type": "number_integer"
+        },
+        {
+          "namespace": "custom",
+          "key": "featured",
+          "value": "false",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "category",
+          "value": "Behind the Scenes",
+          "type": "single_line_text_field"
+        }
+      ]
+    },
+    {
+      "title": "The Art of Winter Layering: Stay Warm Without Sacrificing Style",
+      "handle": "winter-layering-guide",
+      "author": "Sophie Chen",
+      "body_html": "<p>Winter dressing is an art form. The key to staying warm while looking effortlessly elegant lies in strategic layering and quality materials.</p><h2>The Layering Formula</h2><p>Think of layering as building a foundation: base layer (silk or merino), mid-layer (cashmere or wool), outer layer (coat or jacket). Each piece should work in harmony with the others.</p><h2>Essential Winter Pieces</h2><ul><li>Merino base layers</li><li>Cashmere turtlenecks</li><li>Wool blazers from our <a href='/collections/outerwear'>Outerwear Collection</a></li><li>Structured coats</li><li>Quality <a href='/collections/accessories'>scarves and gloves</a></li></ul><p>Explore our full <a href='/collections/outerwear'>Outerwear</a> collection for winter layering essentials.</p>",
+      "published_at": "2024-11-20T10:00:00Z",
+      "summary_html": "<p>Master the technique of layering with our expert guide to staying chic and comfortable all winter long.</p>",
+      "tags": "winter, layering, outerwear, Style Guide",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=1200&q=80",
+        "alt": "Winter layering guide"
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "author_role",
+          "value": "Style Editor",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "reading_time",
+          "value": "5",
+          "type": "number_integer"
+        },
+        {
+          "namespace": "custom",
+          "key": "featured",
+          "value": "false",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "category",
+          "value": "Style Guide",
+          "type": "single_line_text_field"
+        }
+      ]
+    },
+    {
+      "title": "Weekend Wardrobe: Elevated Casual Pieces for Off-Duty Days",
+      "handle": "weekend-casual-essentials",
+      "author": "Isabella Martinez",
+      "body_html": "<p>The weekend wardrobe is where comfort meets considered style. Our <a href='/collections/casual'>Casual Essentials</a> collection proves that off-duty dressing can be just as refined as your workweek attire.</p><h2>Building Your Weekend Wardrobe</h2><p>The secret to weekend style is investing in elevated basics—pieces that feel comfortable but look polished. Think premium cotton tees, perfectly cut jeans, and soft knits.</p><h2>Our Weekend Favorites</h2><ul><li>Organic cotton T-shirts and <a href='/collections/tops'>relaxed blouses</a></li><li>High-quality denim</li><li>Soft cashmere cardigans</li><li>Minimal sneakers and loafers</li><li>Effortless <a href='/collections/dresses'>shirt dresses</a></li></ul><p>Shop the full <a href='/collections/casual'>Casual Collection</a> for more weekend-ready pieces.</p>",
+      "published_at": "2024-12-01T10:00:00Z",
+      "summary_html": "<p>Discover how to master relaxed elegance with our edit of weekend-ready pieces that never compromise on style.</p>",
+      "tags": "casual, weekend style, essentials, Style Guide",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1200&q=80",
+        "alt": "Weekend wardrobe essentials"
+      },
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "author_role",
+          "value": "Senior Stylist",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "reading_time",
+          "value": "4",
+          "type": "number_integer"
+        },
+        {
+          "namespace": "custom",
+          "key": "featured",
+          "value": "false",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "category",
+          "value": "Style Guide",
+          "type": "single_line_text_field"
+        }
+      ]
+    }
+  ]
+}

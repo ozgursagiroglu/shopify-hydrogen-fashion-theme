@@ -1,0 +1,54 @@
+{
+  "name": "Instagram Post",
+  "type": "instagram_post",
+  "displayNameKey": "caption",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "caption",
+      "name": "Caption",
+      "description": "Post caption or description",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "image",
+      "name": "Image",
+      "type": "file_reference",
+      "required": true,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "likes",
+      "name": "Likes",
+      "type": "number_integer",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "comments",
+      "name": "Comments",
+      "type": "number_integer",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "url",
+      "name": "URL",
+      "type": "url",
+      "required": false,
+      "validations": []
+    }
+  ]
+}

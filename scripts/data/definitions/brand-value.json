@@ -1,0 +1,50 @@
+{
+  "name": "Brand Value",
+  "type": "brand_value",
+  "displayNameKey": "title",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "title",
+      "name": "Title",
+      "description": "Value or principle name",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "description": "Detailed description of this value",
+      "type": "multi_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "icon",
+      "name": "Icon Name",
+      "description": "Icon identifier (e.g., 'heart', 'leaf', 'star')",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "order",
+      "name": "Display Order",
+      "description": "Order in which this value appears",
+      "type": "number_integer",
+      "required": false,
+      "validations": [
+        {
+          "name": "min",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Split Hero",
+  "type": "split_hero",
+  "displayNameKey": "title",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "title",
+      "name": "Title",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "image",
+      "name": "Image",
+      "type": "file_reference",
+      "required": true,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "cta_text",
+      "name": "Button Text",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "cta_url",
+      "name": "Button URL",
+      "type": "url",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "position",
+      "name": "Position",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    }
+  ]
+}

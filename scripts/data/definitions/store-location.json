@@ -1,0 +1,130 @@
+{
+  "name": "Store Location",
+  "type": "store_location",
+  "displayNameKey": "name",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "name",
+      "name": "Store Name",
+      "description": "Name of the store location",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "image",
+      "name": "Store Image",
+      "description": "Photo of the store exterior or interior",
+      "type": "file_reference",
+      "required": false,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "address_line1",
+      "name": "Address Line 1",
+      "description": "Street address",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "address_line2",
+      "name": "Address Line 2",
+      "description": "Additional address information (suite, floor, etc.)",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "city",
+      "name": "City",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "postal_code",
+      "name": "Postal Code",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "country",
+      "name": "Country",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "phone",
+      "name": "Phone Number",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "email",
+      "name": "Email",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "hours",
+      "name": "Opening Hours",
+      "description": "Store opening hours (multi-line format)",
+      "type": "multi_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "latitude",
+      "name": "Latitude",
+      "description": "GPS latitude coordinate for map integration",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "longitude",
+      "name": "Longitude",
+      "description": "GPS longitude coordinate for map integration",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "features",
+      "name": "Store Features",
+      "description": "Available services/amenities (one per line)",
+      "type": "multi_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "order",
+      "name": "Display Order",
+      "description": "Order in which stores are displayed",
+      "type": "number_integer",
+      "required": false,
+      "validations": [
+        {
+          "name": "min",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

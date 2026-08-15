@@ -1,0 +1,74 @@
+{
+  "name": "Homepage Hero",
+  "type": "homepage_hero",
+  "displayNameKey": "title",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "title",
+      "name": "Title",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "subtitle",
+      "name": "Subtitle",
+      "type": "multi_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "background_image",
+      "name": "Background Image",
+      "type": "file_reference",
+      "required": true,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "primary_cta_text",
+      "name": "Primary Button Text",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "primary_cta_url",
+      "name": "Primary Button URL",
+      "type": "url",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "secondary_cta_text",
+      "name": "Secondary Button Text",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "secondary_cta_url",
+      "name": "Secondary Button URL",
+      "type": "url",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "height",
+      "name": "Height",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    }
+  ]
+}

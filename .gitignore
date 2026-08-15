@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.cache/
+.turbo/
+.mf/
+storybook-static/
+
+# Framework / tooling caches
+.react-router/
+.shopify/
+.wrangler/
+*.tsbuildinfo
+
+# Test & coverage artifacts
+coverage/
+test-results/
+playwright-report/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

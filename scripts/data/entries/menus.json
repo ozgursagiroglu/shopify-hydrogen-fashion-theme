@@ -1,0 +1,79 @@
+[
+  {
+    "handle": "header-menu",
+    "title": "Header Menu",
+    "items": [
+      {
+        "title": "New In",
+        "url": "/collections/new-in"
+      },
+      {
+        "title": "Women",
+        "url": "/collections/women",
+        "items": [
+          { "title": "View All", "url": "/collections/women" },
+          { "title": "Dresses", "url": "/collections/dresses" },
+          { "title": "Tops", "url": "/collections/tops" },
+          { "title": "Outerwear", "url": "/collections/outerwear" }
+        ]
+      },
+      {
+        "title": "Men",
+        "url": "/collections/men",
+        "items": [
+          { "title": "View All", "url": "/collections/men" },
+          { "title": "Outerwear", "url": "/collections/outerwear" }
+        ]
+      },
+      {
+        "title": "Accessories",
+        "url": "/collections/accessories"
+      },
+      {
+        "title": "All",
+        "url": "/collections/all"
+      }
+    ]
+  },
+  {
+    "handle": "footer-shop",
+    "title": "Footer Shop",
+    "items": [
+      { "title": "New Arrivals", "url": "/collections/new-in" },
+      { "title": "Women", "url": "/collections/women" },
+      { "title": "Men", "url": "/collections/men" },
+      { "title": "Accessories", "url": "/collections/accessories" },
+      { "title": "All Products", "url": "/collections/all" }
+    ]
+  },
+  {
+    "handle": "footer-about",
+    "title": "Footer About",
+    "items": [
+      { "title": "Our Story", "url": "/about" },
+      { "title": "Sustainability", "url": "/pages/sustainability" },
+      { "title": "Journal", "url": "/blogs/journal" },
+      { "title": "Careers", "url": "/pages/careers" },
+      { "title": "Stores", "url": "/stores" }
+    ]
+  },
+  {
+    "handle": "footer-help",
+    "title": "Footer Help",
+    "items": [
+      { "title": "Contact Us", "url": "/contact" },
+      { "title": "FAQ", "url": "/faq" },
+      { "title": "Shipping", "url": "/policies/shipping-policy" },
+      { "title": "Returns", "url": "/policies/refund-policy" }
+    ]
+  },
+  {
+    "handle": "footer-legal",
+    "title": "Footer Legal",
+    "items": [
+      { "title": "Privacy Policy", "url": "/policies/privacy-policy" },
+      { "title": "Terms of Service", "url": "/policies/terms-of-service" },
+      { "title": "Cookies", "url": "/pages/cookies" }
+    ]
+  }
+]

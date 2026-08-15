@@ -1,0 +1,74 @@
+{
+  "name": "Stock Alert",
+  "type": "stock_alert",
+  "displayNameKey": "email",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": false
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "email",
+      "name": "Email Address",
+      "description": "Customer email address for stock alert notification",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "product_title",
+      "name": "Product Title",
+      "description": "Name of the product being tracked",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "product_handle",
+      "name": "Product Handle",
+      "description": "Product URL handle for reference",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "variant_title",
+      "name": "Variant Title",
+      "description": "Specific variant being tracked (e.g., Medium / Black)",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "variant_id",
+      "name": "Variant ID",
+      "description": "Shopify variant ID for precise tracking",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "status",
+      "name": "Status",
+      "description": "Current status of the stock alert subscription",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": [
+        {
+          "name": "choices",
+          "value": "[\"active\", \"notified\", \"expired\"]"
+        }
+      ]
+    },
+    {
+      "key": "created_at",
+      "name": "Subscription Date",
+      "description": "Date when the stock alert was created",
+      "type": "date",
+      "required": true,
+      "validations": []
+    }
+  ]
+}

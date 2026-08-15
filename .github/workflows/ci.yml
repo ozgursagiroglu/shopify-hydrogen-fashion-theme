@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  # Keep the Shopify CLI non-interactive and quiet in CI.
+  CI: true
+  SHOPIFY_CLI_NO_ANALYTICS: '1'
+  # Placeholder values — the build must not depend on real store credentials.
+  SESSION_SECRET: ci-placeholder-session-secret-not-a-real-value
+  PUBLIC_STORE_DOMAIN: example.myshopify.com
+  PUBLIC_STOREFRONT_API_TOKEN: ci-placeholder-token
+  PUBLIC_STOREFRONT_API_VERSION: '2025-10'
+
+jobs:
+  verify:
+    name: Lint · Typecheck · Test · Build (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['20.19.0', '22.x']
+
+    defaults:
+      run:
+        working-directory: hydrogen
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: yarn
+          cache-dependency-path: hydrogen/yarn.lock
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Typecheck
+        run: yarn typecheck
+
+      - name: Unit tests
+        run: yarn test --run
+
+      - name: Build
+        run: yarn build

@@ -1,0 +1,305 @@
+{
+  "pages": [
+    {
+      "title": "Sustainability",
+      "handle": "sustainability",
+      "body_html": "<h2>Our Sustainability Promise</h2><p>At ÉLAN, we believe that luxury and sustainability are not mutually exclusive. Every decision we make—from material sourcing to production methods—is guided by our commitment to reducing our environmental impact.</p><h2>Sustainable Materials</h2><p>We prioritize organic, recycled, and responsibly sourced materials:</p><ul><li><strong>Organic Cotton</strong> - GOTS certified, grown without harmful pesticides</li><li><strong>Recycled Fabrics</strong> - Giving new life to existing materials</li><li><strong>Responsible Wool</strong> - Certified by the Responsible Wool Standard</li><li><strong>Deadstock Fabrics</strong> - Reducing waste by using surplus materials</li></ul><h2>Ethical Production</h2><p>All our garments are produced in facilities that meet strict ethical standards. We ensure fair wages, safe working conditions, and respect for workers' rights throughout our supply chain.</p><h2>Packaging & Shipping</h2><p>Our packaging is 100% recyclable and made from recycled materials. We use biodegradable mailers and minimize plastic wherever possible.</p><h2>Take Action</h2><p>Explore our sustainably made collections:</p><ul><li><a href='/collections/women'>Women's Collection</a></li><li><a href='/collections/men'>Men's Collection</a></li><li><a href='/collections/new-in'>New Arrivals</a></li></ul><p>Learn more about our values on our <a href='/about'>About page</a>, or read our <a href='/blogs/journal'>Journal</a> for sustainability tips and insights.</p>",
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "seo_title",
+          "value": "Our Commitment to Sustainability | ÉLAN",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "seo_description",
+          "value": "Discover how ÉLAN is committed to sustainable fashion practices, from ethical production to eco-friendly materials.",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_image",
+          "value": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1920&q=80",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_title",
+          "value": "Fashion with a Conscience",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_subtitle",
+          "value": "Our commitment to the planet and its people",
+          "type": "multi_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_newsletter",
+          "value": "true",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "title": "Careers",
+      "handle": "careers",
+      "body_html": "<h2>Why Work at ÉLAN?</h2><p>At ÉLAN, we're more than a fashion brand—we're a community of creatives, innovators, and change-makers united by a shared vision of sustainable luxury.</p><h2>Our Culture</h2><ul><li><strong>Purpose-Driven</strong> - Every role contributes to our mission of sustainable fashion</li><li><strong>Creative Freedom</strong> - We encourage innovation and fresh perspectives</li><li><strong>Growth-Oriented</strong> - Continuous learning and development opportunities</li><li><strong>Inclusive</strong> - Diversity is celebrated and valued</li><li><strong>Work-Life Balance</strong> - Flexible working arrangements</li></ul><h2>Benefits</h2><ul><li>Competitive salary and performance bonuses</li><li>Comprehensive health insurance</li><li>Generous employee discount on all collections</li><li>Professional development budget</li><li>Flexible remote work policy</li><li>Wellness programs and mental health support</li></ul><h2>Open Positions</h2><p>We're currently looking for talented individuals to join our team. Please send your CV and portfolio to <strong>careers@elan-store.com</strong>.</p><h3>Current Openings:</h3><ul><li>Senior Fashion Designer (Paris)</li><li>Sustainability Coordinator (London)</li><li>Retail Manager (New York)</li><li>E-Commerce Manager (Remote)</li><li>Content Creator (Remote)</li></ul><p>Visit our <a href='/stores'>stores</a> to experience the ÉLAN brand in person, or explore our <a href='/about'>story and values</a>.</p>",
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "seo_title",
+          "value": "Join Our Team | ÉLAN Careers",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "seo_description",
+          "value": "Explore career opportunities at ÉLAN. Join a team passionate about creating timeless, sustainable fashion.",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_image",
+          "value": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=1920&q=80",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_title",
+          "value": "Join the ÉLAN Family",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_subtitle",
+          "value": "Build a career in sustainable luxury fashion",
+          "type": "multi_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_newsletter",
+          "value": "false",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "title": "Cookie Policy",
+      "handle": "cookies",
+      "body_html": "<p><em>Last updated: December 2024</em></p><h2>What Are Cookies?</h2><p>Cookies are small text files that are placed on your device when you visit our website. They help us provide you with a better experience by remembering your preferences and understanding how you use our site.</p><h2>Types of Cookies We Use</h2><h3>Essential Cookies</h3><p>These cookies are necessary for the website to function properly. They enable core functionality such as security, network management, and accessibility. You cannot opt out of these cookies.</p><h3>Analytics Cookies</h3><p>We use analytics cookies to understand how visitors interact with our website. This helps us improve our site's performance and user experience.</p><h3>Marketing Cookies</h3><p>These cookies track your browsing habits to deliver personalized advertising. They remember that you've visited our website and share this information with advertisers.</p><h3>Preference Cookies</h3><p>These cookies remember your settings and preferences, such as language and region, to provide a more personalized experience.</p><h2>Managing Cookies</h2><p>You can control and manage cookies through your browser settings. Please note that removing or blocking certain cookies may impact your user experience and some features may no longer work correctly.</p><h3>How to Manage Cookies:</h3><ul><li><strong>Chrome</strong>: Settings > Privacy and security > Cookies</li><li><strong>Safari</strong>: Preferences > Privacy > Cookies</li><li><strong>Firefox</strong>: Options > Privacy & Security > Cookies</li><li><strong>Edge</strong>: Settings > Privacy > Cookies</li></ul><h2>Third-Party Cookies</h2><p>We use trusted third-party services that may also set cookies. These include:</p><ul><li>Google Analytics (website analytics)</li><li>Shopify (e-commerce platform)</li><li>Social media platforms (if you interact with our social media content)</li></ul><h2>Your Choices</h2><p>By using our website, you consent to the use of cookies as described in this policy. You can withdraw your consent at any time by adjusting your browser settings or using our cookie preference tool.</p><h2>Contact Us</h2><p>If you have questions about our use of cookies, please <a href='/contact'>contact us</a>.</p><p>For more information about how we protect your data, please read our <a href='/policies/privacy-policy'>Privacy Policy</a>.</p>",
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "seo_title",
+          "value": "Cookie Policy | ÉLAN",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "seo_description",
+          "value": "Learn about how ÉLAN uses cookies to improve your browsing experience.",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_title",
+          "value": "Cookie Policy",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_subtitle",
+          "value": "How we use cookies to enhance your experience",
+          "type": "multi_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_newsletter",
+          "value": "false",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "title": "About ÉLAN",
+      "handle": "about",
+      "body_html": "<h2>Our Story</h2><p>Founded in 2018, ÉLAN was born from a simple yet powerful vision: to create timeless fashion that respects both people and planet. What began as a small atelier in Paris has grown into a global brand known for its unwavering commitment to quality, craftsmanship, and sustainability.</p><h2>Our Philosophy</h2><p>We believe in the power of slow fashion—pieces designed to last, transcending seasons and trends. Each ÉLAN garment is crafted with meticulous attention to detail, using responsibly sourced materials and ethical production methods.</p><h2>Our Values</h2><ul><li><strong>Timeless Design</strong> - We create pieces that remain relevant season after season</li><li><strong>Quality Craftsmanship</strong> - Every garment is made to the highest standards</li><li><strong>Sustainability</strong> - We prioritize the planet in every decision we make</li><li><strong>Transparency</strong> - We believe in honest, open communication about our practices</li><li><strong>Community</strong> - We support and celebrate the artisans and communities we work with</li></ul><h2>Global Presence</h2><p>From our flagship store in Paris to our locations in London and New York, ÉLAN has become a destination for those who value quality over quantity. Visit our <a href='/stores'>stores</a> to experience the ÉLAN world in person.</p><h2>Join Our Journey</h2><p>Explore our commitment to <a href='/pages/sustainability'>sustainability</a>, read our <a href='/blogs/journal'>journal</a> for insights and inspiration, or discover <a href='/pages/careers'>career opportunities</a> to join our team.</p>",
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "seo_title",
+          "value": "About Us - Timeless Fashion with Purpose | ÉLAN",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "seo_description",
+          "value": "Discover the ÉLAN story. Learn about our commitment to timeless design, sustainable practices, and ethical craftsmanship.",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_image",
+          "value": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&q=80",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_title",
+          "value": "Timeless Fashion, Thoughtfully Made",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_subtitle",
+          "value": "Our commitment to quality, sustainability, and craftsmanship",
+          "type": "multi_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_newsletter",
+          "value": "true",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "title": "Contact Us",
+      "handle": "contact",
+      "body_html": "<h2>Get in Touch</h2><p>We'd love to hear from you. Whether you have a question about our products, need styling advice, or want to share feedback, our team is here to help.</p><h2>Customer Service</h2><p>Our customer service team is available Monday through Friday, 9 AM - 6 PM EST.</p><ul><li><strong>Email:</strong> support@elan-store.com</li><li><strong>Phone:</strong> +1 (800) 555-0123</li><li><strong>Live Chat:</strong> Available on our website during business hours</li></ul><h2>Department Contacts</h2><ul><li><strong>General Inquiries:</strong> hello@elan-store.com</li><li><strong>Press & Media:</strong> press@elan-store.com</li><li><strong>Careers:</strong> careers@elan-store.com</li><li><strong>Wholesale:</strong> wholesale@elan-store.com</li><li><strong>Sustainability:</strong> sustainability@elan-store.com</li></ul><h2>Visit Our Stores</h2><p>Experience ÉLAN in person at one of our flagship locations. Browse our full <a href='/stores'>store directory</a> for addresses and opening hours.</p><h2>Frequently Asked Questions</h2><p>Looking for quick answers? Visit our <a href='/faq'>FAQ page</a> for information about shipping, returns, sizing, and more.</p><h2>Follow Us</h2><p>Stay connected with ÉLAN for the latest collections, styling tips, and behind-the-scenes content:</p><ul><li>Instagram: @elan</li><li>Pinterest: @elanofficial</li><li>Facebook: ÉLAN Official</li></ul>",
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "seo_title",
+          "value": "Contact Us | ÉLAN Customer Service",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "seo_description",
+          "value": "Get in touch with ÉLAN. Our customer service team is here to help with your questions about orders, products, and more.",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_title",
+          "value": "We're Here to Help",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_subtitle",
+          "value": "Contact our team for assistance with orders, styling advice, or general inquiries",
+          "type": "multi_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_contact_form",
+          "value": "true",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_newsletter",
+          "value": "false",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "title": "Our Stores",
+      "handle": "stores",
+      "body_html": "<h2>Visit ÉLAN</h2><p>Experience the world of ÉLAN at our flagship stores. Each location offers a carefully curated selection of our collections, personalized styling services, and a welcoming space to explore timeless fashion.</p><h2>Services Available</h2><ul><li><strong>Personal Styling:</strong> Complimentary one-on-one styling sessions (by appointment)</li><li><strong>Alterations:</strong> Expert tailoring services to ensure the perfect fit</li><li><strong>Exclusive Releases:</strong> Early access to new collections and limited editions</li><li><strong>Events:</strong> In-store events, workshops, and brand experiences</li></ul><h2>Store Locations</h2><p>Our stores are located in fashion capitals around the world. Browse the locations below or <a href='/contact'>contact us</a> for more information.</p><h3>ÉLAN Paris — Le Marais</h3><p>45 Rue de Turenne<br>75003 Paris, France<br><strong>Hours:</strong> Mon-Sat 10AM-7PM, Sun 12PM-6PM<br><strong>Phone:</strong> +33 1 42 77 12 34</p><h3>ÉLAN London — Soho</h3><p>28 Brewer Street<br>London W1F 0SR, United Kingdom<br><strong>Hours:</strong> Mon-Sat 10AM-7PM, Sun 12PM-6PM<br><strong>Phone:</strong> +44 20 7734 5678</p><h3>ÉLAN New York — SoHo</h3><p>125 Greene Street<br>New York, NY 10012, United States<br><strong>Hours:</strong> Mon-Sat 10AM-8PM, Sun 11AM-7PM<br><strong>Phone:</strong> +1 (212) 555-0123</p><h2>Can't Visit in Person?</h2><p>Shop our complete collection online with free shipping on orders over $100. Need help? Our <a href='/contact'>customer service team</a> is available to assist with sizing, styling, and product recommendations.</p>",
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "seo_title",
+          "value": "Store Locations | Find an ÉLAN Store Near You",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "seo_description",
+          "value": "Visit ÉLAN stores in Paris, London, and New York. Experience personalized styling and explore our collections in person.",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_image",
+          "value": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&q=80",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_title",
+          "value": "Visit Our Stores",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_subtitle",
+          "value": "Experience ÉLAN in Paris, London, and New York",
+          "type": "multi_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_store_locator",
+          "value": "true",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_newsletter",
+          "value": "false",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "handle": "faq",
+      "body_html": "<h2>How Can We Help?</h2><p>Find answers to the most common questions about shopping with ÉLAN. Can't find what you're looking for? <a href='/contact'>Contact our customer service team</a>.</p><h2>Orders & Shipping</h2><h3>How long does shipping take?</h3><p>Standard shipping takes 5-7 business days. Express shipping (2-3 days) and Next Day Delivery are also available. See our full <a href='/policies/shipping-policy'>Shipping Policy</a> for details.</p><h3>Do you ship internationally?</h3><p>Yes! We ship to over 50 countries worldwide. International delivery times vary by destination (7-21 business days).</p><h3>Can I track my order?</h3><p>Absolutely. Once your order ships, you'll receive a tracking number via email. You can also track orders in your <a href='/account'>account dashboard</a>.</p><h2>Returns & Exchanges</h2><h3>What is your return policy?</h3><p>We accept returns within 30 days of delivery for unworn, unwashed items with original tags attached. Domestic returns are free. See our <a href='/policies/refund-policy'>Return Policy</a> for complete details.</p><h3>How do I return an item?</h3><p>Log into your account, go to Order History, select the order, and click \"Return Items.\" Print the prepaid label and drop off at any authorized shipping location.</p><h3>Do you offer exchanges?</h3><p>We don't offer direct exchanges. Simply return the unwanted item and place a new order for your desired size or color.</p><h2>Products & Sizing</h2><h3>How do I find my size?</h3><p>Each product page includes a detailed size guide. We recommend checking the specific measurements for each item, as sizing can vary by style.</p><h3>Are your products sustainable?</h3><p>Yes! We're committed to sustainable fashion. Learn more about our practices on our <a href='/pages/sustainability'>Sustainability page</a>.</p><h3>How should I care for my ÉLAN pieces?</h3><p>Care instructions are included on the label of each garment. Generally, we recommend hand washing or gentle machine wash in cold water, and air drying to extend the life of your pieces.</p><h2>Account & Payment</h2><h3>Do I need an account to place an order?</h3><p>No, you can checkout as a guest. However, creating an account allows you to track orders, save addresses, and access your order history.</p><h3>What payment methods do you accept?</h3><p>We accept all major credit cards, PayPal, Apple Pay, and Google Pay.</p><h2>Still Have Questions?</h2><p><a href='/contact'>Contact us</a> and our team will be happy to help.</p>",
+      "metafields": [
+        {
+          "namespace": "custom",
+          "key": "seo_title",
+          "value": "FAQ - Frequently Asked Questions | ÉLAN",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "seo_description",
+          "value": "Find answers to common questions about shipping, returns, sizing, and more at ÉLAN.",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_title",
+          "value": "Frequently Asked Questions",
+          "type": "single_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "hero_subtitle",
+          "value": "Quick answers to your questions about ÉLAN",
+          "type": "multi_line_text_field"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_search",
+          "value": "true",
+          "type": "boolean"
+        },
+        {
+          "namespace": "custom",
+          "key": "show_newsletter",
+          "value": "false",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}

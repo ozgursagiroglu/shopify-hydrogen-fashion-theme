@@ -1,0 +1,78 @@
+{
+  "contact": [
+    {
+      "namespace": "contact",
+      "key": "title",
+      "value": "Get in Touch",
+      "type": "single_line_text_field"
+    },
+    {
+      "namespace": "contact",
+      "key": "email",
+      "value": "hello@elan-fashion.com",
+      "type": "single_line_text_field"
+    },
+    {
+      "namespace": "contact",
+      "key": "phone",
+      "value": "+1 (555) 123-4567",
+      "type": "single_line_text_field"
+    },
+    {
+      "namespace": "contact",
+      "key": "hours",
+      "value": "Mon-Fri: 9AM-6PM EST",
+      "type": "single_line_text_field"
+    },
+    {
+      "namespace": "contact",
+      "key": "address",
+      "value": "123 Fashion Avenue\nNew York, NY 10001\nUnited States",
+      "type": "multi_line_text_field"
+    },
+    {
+      "namespace": "contact",
+      "key": "address_url",
+      "value": "https://maps.google.com",
+      "type": "url"
+    }
+  ],
+  "social": [
+    {
+      "namespace": "social",
+      "key": "instagram",
+      "value": "https://instagram.com/elan",
+      "type": "url"
+    },
+    {
+      "namespace": "social",
+      "key": "facebook",
+      "value": "https://facebook.com/elan",
+      "type": "url"
+    },
+    {
+      "namespace": "social",
+      "key": "twitter",
+      "value": "https://twitter.com/elan",
+      "type": "url"
+    },
+    {
+      "namespace": "social",
+      "key": "pinterest",
+      "value": "https://pinterest.com/elan",
+      "type": "url"
+    },
+    {
+      "namespace": "social",
+      "key": "tiktok",
+      "value": "https://tiktok.com/@elan",
+      "type": "url"
+    },
+    {
+      "namespace": "social",
+      "key": "youtube",
+      "value": "https://youtube.com/@elan",
+      "type": "url"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "ada-elan-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive setup wizard and Shopify seeding CLI for the ada ELAN Hydrogen theme.",
+  "license": "MIT",
+  "author": "Ozgur Sagiroglu (https://github.com/ozgursagiroglu)",
+  "homepage": "https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme.git",
+    "directory": "scripts"
+  },
+  "bugs": {
+    "url": "https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "setup": "node setup.js",
+    "seed": "node --env-file=../hydrogen/.env --experimental-strip-types lib/seed.ts",
+    "seed:definitions": "node --env-file=../hydrogen/.env --experimental-strip-types lib/seed.ts --definitions-only",
+    "seed:entries": "node --env-file=../hydrogen/.env --experimental-strip-types lib/seed.ts --entries-only",
+    "seed:entries:force": "node --env-file=../hydrogen/.env --experimental-strip-types lib/seed.ts --entries-only --force-entries",
+    "seed:products": "node --env-file=../hydrogen/.env --experimental-strip-types lib/seed-products.ts",
+    "seed:products:force": "node --env-file=../hydrogen/.env --experimental-strip-types lib/seed-products.ts --force",
+    "seed:all": "yarn seed && yarn seed:products",
+    "validate": "node --experimental-strip-types lib/validate-setup.ts hydrogen"
+  },
+  "keywords": [
+    "shopify",
+    "hydrogen",
+    "seed",
+    "setup",
+    "metaobjects",
+    "cli"
+  ],
+  "dependencies": {
+    "@shopify/admin-api-client": "^1.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

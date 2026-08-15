@@ -1,0 +1,74 @@
+{
+  "name": "Newsletter Section",
+  "type": "newsletter_section",
+  "displayNameKey": "title",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "overline",
+      "name": "Overline Text",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "title",
+      "name": "Title",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "description",
+      "name": "Description",
+      "type": "multi_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "background_image",
+      "name": "Background Image",
+      "type": "file_reference",
+      "required": false,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "benefit_1",
+      "name": "Benefit 1",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "benefit_2",
+      "name": "Benefit 2",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "benefit_3",
+      "name": "Benefit 3",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "privacy_notice",
+      "name": "Privacy Notice",
+      "type": "multi_line_text_field",
+      "required": false,
+      "validations": []
+    }
+  ]
+}

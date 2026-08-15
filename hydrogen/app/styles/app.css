@@ -1,0 +1,98 @@
+:root {
+  /* Layout */
+  --aside-width: 420px;
+  --cart-aside-summary-height-with-discount: 340px;
+  --cart-aside-summary-height: 280px;
+  --header-height: 72px;
+
+  /* ada ÉLAN Color System - Light Mode */
+  --color-primary: #1C1917;
+  --color-accent: #D97706;
+  --color-accent-hover: #B45309;
+
+  /* Surfaces */
+  --color-background: #FAF9F7;
+  --color-surface-0: #FFFFFF;
+  --color-surface-1: #F5F4F1;
+  --color-surface-2: #EFEDE8;
+  --color-surface-3: #E7E4DD;
+
+  /* Legacy aliases */
+  --color-dark: #1C1917;
+  --color-light: #FFFFFF;
+  --color-surface: #F5F4F1;
+
+  /* Text */
+  --color-text-primary: #1C1917;
+  --color-text-secondary: #44403C;
+  --color-text-muted: #78716C;
+  --color-text-subtle: #A8A29E;
+
+  /* Borders */
+  --color-border: #E7E4DD;
+  --color-border-subtle: #E7E4DD;
+  --color-border-default: #D6D3CC;
+  --color-border-strong: #A8A29E;
+  --color-border-focus: #D97706;
+
+  /* Semantic */
+  --color-success: #059669;
+  --color-success-light: #D1FAE5;
+  --color-warning: #D97706;
+  --color-warning-light: #FEF3C7;
+  --color-error: #DC2626;
+  --color-error-light: #FEE2E2;
+  --color-info: #0284C7;
+  --color-info-light: #E0F2FE;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.03);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.04), 0 1px 2px -1px rgb(0 0 0 / 0.04);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.06), 0 4px 6px -4px rgb(0 0 0 / 0.06);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.07), 0 8px 10px -6px rgb(0 0 0 / 0.07);
+  --shadow-card: 0 2px 8px -2px rgb(0 0 0 / 0.06), 0 4px 16px -4px rgb(0 0 0 / 0.08);
+  --shadow-dropdown: 0 4px 24px -4px rgb(0 0 0 / 0.12);
+  --shadow-modal: 0 24px 48px -12px rgb(0 0 0 / 0.18);
+
+  /* Transitions */
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm: 4px;
+  --radius-DEFAULT: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-3xl: 32px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Fade in up animation for mega menu items */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.3s ease-out both;
+}

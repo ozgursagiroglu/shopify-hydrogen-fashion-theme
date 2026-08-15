@@ -1,0 +1,37 @@
+{
+  "namespace": "social",
+  "name": "Social Media Links",
+  "description": "Social media links displayed in footer and header",
+  "fieldDefinitions": [
+    {
+      "key": "instagram",
+      "name": "Instagram URL",
+      "type": "url"
+    },
+    {
+      "key": "facebook",
+      "name": "Facebook URL",
+      "type": "url"
+    },
+    {
+      "key": "twitter",
+      "name": "Twitter / X URL",
+      "type": "url"
+    },
+    {
+      "key": "pinterest",
+      "name": "Pinterest URL",
+      "type": "url"
+    },
+    {
+      "key": "tiktok",
+      "name": "TikTok URL",
+      "type": "url"
+    },
+    {
+      "key": "youtube",
+      "name": "YouTube URL",
+      "type": "url"
+    }
+  ]
+}

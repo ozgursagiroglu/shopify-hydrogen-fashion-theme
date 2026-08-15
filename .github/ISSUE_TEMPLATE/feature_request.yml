@@ -1,0 +1,54 @@
+name: Feature request
+description: Suggest a new capability or improvement for the theme
+title: '[Feature]: '
+labels: ['enhancement', 'needs triage']
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: >
+        Describe the storefront or merchandising problem rather than a proposed API. This shapes
+        the design more than a specific implementation does.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like to see? Sketches, references, or links to other stores help.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area?
+      options:
+        - Homepage / sections
+        - Collection / filtering
+        - Product detail page
+        - Cart / checkout
+        - Search
+        - Account
+        - i18n / RTL
+        - Design system
+        - Setup wizard or seeding (scripts/)
+        - Build / tooling
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I am willing to open a pull request for this

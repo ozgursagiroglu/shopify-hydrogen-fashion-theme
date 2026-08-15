@@ -1,0 +1,15 @@
+node_modules
+dist
+build
+coverage
+storybook-static
+.react-router
+.shopify
+.wrangler
+test-results
+playwright-report
+yarn.lock
+package-lock.json
+*.generated.d.ts
+*.tsbuildinfo
+docs/images

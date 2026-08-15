@@ -1,0 +1,335 @@
+{
+  "collections": [
+    {
+      "handle": "women",
+      "title": "Women",
+      "description": "Discover our curated collection of timeless pieces designed for the modern woman.",
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80"
+    },
+    {
+      "handle": "men",
+      "title": "Men",
+      "description": "Refined essentials and contemporary classics for the modern gentleman.",
+      "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=1200&q=80"
+    },
+    {
+      "handle": "dresses",
+      "title": "Dresses",
+      "description": "Elegant dresses for every occasion, from casual to formal.",
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=1200&q=80"
+    },
+    {
+      "handle": "tops",
+      "title": "Tops",
+      "description": "Blouses, shirts, and sweaters crafted from premium materials.",
+      "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=1200&q=80"
+    },
+    {
+      "handle": "outerwear",
+      "title": "Outerwear",
+      "description": "Coats and jackets designed to elevate your winter wardrobe.",
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=1200&q=80"
+    },
+    {
+      "handle": "accessories",
+      "title": "Accessories",
+      "description": "The finishing touches that complete every look.",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1200&q=80"
+    },
+    {
+      "handle": "new-in",
+      "title": "New Arrivals",
+      "description": "The latest additions to our collection.",
+      "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1200&q=80"
+    },
+    {
+      "handle": "all",
+      "title": "All Products",
+      "description": "Browse our complete collection.",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80"
+    },
+    {
+      "handle": "autumn",
+      "title": "Autumn Collection",
+      "description": "Essential pieces for the autumn season. Warm textures and rich earthy tones.",
+      "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=1200&q=80"
+    },
+    {
+      "handle": "workwear",
+      "title": "Workwear",
+      "description": "Professional pieces designed for the modern office. Polished, versatile, and effortlessly chic.",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200&q=80"
+    },
+    {
+      "handle": "casual",
+      "title": "Casual Essentials",
+      "description": "Relaxed pieces for weekend wear. Comfort meets contemporary style.",
+      "image": "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=1200&q=80"
+    }
+  ],
+  "products": [
+    {
+      "handle": "silk-midi-dress",
+      "title": "Silk Midi Dress",
+      "description": "An elegant silk midi dress featuring a flattering A-line silhouette. Made from 100% mulberry silk with a subtle sheen that catches the light beautifully. Perfect for special occasions or elevated everyday wear.\n\n• 100% Mulberry Silk\n• A-line silhouette\n• Hidden side zipper\n• Fully lined\n• Dry clean only",
+      "vendor": "ÉLAN",
+      "productType": "Dresses",
+      "tags": ["women", "dresses", "silk", "midi", "new", "demo"],
+      "collections": ["women", "dresses", "new-in", "all"],
+      "price": "299.00",
+      "compareAtPrice": "399.00",
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80",
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["XS", "S", "M", "L", "XL"],
+        "color": ["Black", "Ivory"]
+      }
+    },
+    {
+      "handle": "cashmere-crew-sweater",
+      "title": "Cashmere Crew Sweater",
+      "description": "Luxuriously soft cashmere sweater with a relaxed crew neck. Crafted from Grade-A Mongolian cashmere for exceptional warmth and durability.\n\n• 100% Grade-A Cashmere\n• Relaxed fit\n• Ribbed cuffs and hem\n• Hand wash or dry clean",
+      "vendor": "ÉLAN",
+      "productType": "Tops",
+      "tags": ["women", "tops", "cashmere", "sweater", "new", "demo"],
+      "collections": ["women", "tops", "new-in", "all"],
+      "price": "249.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80",
+        "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["XS", "S", "M", "L", "XL"],
+        "color": ["Camel", "Grey", "Black"]
+      }
+    },
+    {
+      "handle": "tailored-wool-blazer",
+      "title": "Tailored Wool Blazer",
+      "description": "A perfectly tailored blazer in premium Italian wool. Features a single-breasted design with peak lapels and a slightly nipped waist for a flattering silhouette.\n\n• Italian virgin wool\n• Single-breasted, two-button\n• Peak lapels\n• Fully lined\n• Dry clean only",
+      "vendor": "ÉLAN",
+      "productType": "Outerwear",
+      "tags": ["women", "outerwear", "blazer", "wool", "bestseller", "demo"],
+      "collections": ["women", "outerwear", "all"],
+      "price": "459.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["XS", "S", "M", "L", "XL"],
+        "color": ["Navy", "Black"]
+      }
+    },
+    {
+      "handle": "wide-leg-trousers",
+      "title": "Wide Leg Trousers",
+      "description": "Elegant wide-leg trousers with a high waist and flowing silhouette. Made from a refined wool blend that drapes beautifully.\n\n• Wool blend\n• High waist\n• Wide leg\n• Side pockets\n• Dry clean recommended",
+      "vendor": "ÉLAN",
+      "productType": "Bottoms",
+      "tags": ["women", "bottoms", "trousers", "wide-leg", "demo"],
+      "collections": ["women", "all"],
+      "price": "189.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["XS", "S", "M", "L", "XL"],
+        "color": ["Black", "Tan"]
+      }
+    },
+    {
+      "handle": "linen-relaxed-blouse",
+      "title": "Linen Relaxed Blouse",
+      "description": "A breathable linen blouse with a relaxed fit. Features subtle dropped shoulders and a clean, minimalist design perfect for warm weather.\n\n• 100% European linen\n• Relaxed fit\n• Mother of pearl buttons\n• Machine washable",
+      "vendor": "ÉLAN",
+      "productType": "Tops",
+      "tags": ["women", "tops", "linen", "blouse", "demo"],
+      "collections": ["women", "tops", "all"],
+      "price": "149.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&q=80",
+        "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["XS", "S", "M", "L", "XL"],
+        "color": ["White", "Light Blue"]
+      }
+    },
+    {
+      "handle": "oversized-wool-coat",
+      "title": "Oversized Wool Coat",
+      "description": "A statement oversized coat in luxurious double-faced wool. Features clean lines, minimal detailing, and a belt for versatile styling.\n\n• Double-faced wool\n• Oversized fit\n• Detachable belt\n• Side pockets\n• Dry clean only",
+      "vendor": "ÉLAN",
+      "productType": "Outerwear",
+      "tags": ["women", "outerwear", "coat", "wool", "new", "demo"],
+      "collections": ["women", "outerwear", "new-in", "all"],
+      "price": "599.00",
+      "compareAtPrice": "749.00",
+      "images": [
+        "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&q=80",
+        "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["XS", "S", "M", "L"],
+        "color": ["Camel", "Black"]
+      }
+    },
+    {
+      "handle": "oxford-cotton-shirt",
+      "title": "Oxford Cotton Shirt",
+      "description": "A timeless Oxford shirt crafted from premium long-staple cotton. Features a classic fit with a button-down collar and curved hem.\n\n• 100% long-staple cotton\n• Classic fit\n• Button-down collar\n• Single chest pocket\n• Machine washable",
+      "vendor": "ÉLAN",
+      "productType": "Shirts",
+      "tags": ["men", "shirts", "oxford", "cotton", "demo"],
+      "collections": ["men", "tops", "all"],
+      "price": "129.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&q=80",
+        "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["S", "M", "L", "XL", "XXL"],
+        "color": ["White", "Light Blue", "Pink"]
+      }
+    },
+    {
+      "handle": "merino-wool-cardigan",
+      "title": "Merino Wool Cardigan",
+      "description": "A refined cardigan in superfine merino wool. Features a clean V-neck design with ribbed cuffs and hem.\n\n• 100% superfine merino wool\n• V-neck\n• Button front\n• Ribbed cuffs and hem\n• Hand wash or dry clean",
+      "vendor": "ÉLAN",
+      "productType": "Knitwear",
+      "tags": ["men", "knitwear", "merino", "cardigan", "demo"],
+      "collections": ["men", "tops", "all"],
+      "price": "219.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80",
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["S", "M", "L", "XL", "XXL"],
+        "color": ["Navy", "Charcoal"]
+      }
+    },
+    {
+      "handle": "tailored-chino-pants",
+      "title": "Tailored Chino Pants",
+      "description": "Modern tailored chinos with a slim fit and clean finish. Made from a comfortable stretch cotton blend.\n\n• Cotton blend with stretch\n• Slim fit\n• Flat front\n• Side and back pockets\n• Machine washable",
+      "vendor": "ÉLAN",
+      "productType": "Pants",
+      "tags": ["men", "pants", "chino", "cotton", "demo"],
+      "collections": ["men", "all"],
+      "price": "159.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?w=800&q=80",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["28", "30", "32", "34", "36", "38"],
+        "color": ["Navy", "Khaki", "Black"]
+      }
+    },
+    {
+      "handle": "leather-biker-jacket",
+      "title": "Leather Biker Jacket",
+      "description": "A classic biker jacket in supple lambskin leather. Features an asymmetric zip, snap collar, and zippered pockets.\n\n• 100% lambskin leather\n• Viscose lining\n• Asymmetric front zip\n• Multiple pockets\n• Professional leather clean",
+      "vendor": "ÉLAN",
+      "productType": "Outerwear",
+      "tags": ["men", "outerwear", "leather", "jacket", "bestseller", "demo"],
+      "collections": ["men", "outerwear", "all"],
+      "price": "699.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80",
+        "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["S", "M", "L", "XL"],
+        "color": ["Black"]
+      }
+    },
+    {
+      "handle": "leather-tote-bag",
+      "title": "Leather Tote Bag",
+      "description": "A spacious tote bag in full-grain leather. Features an unlined interior with multiple pockets and magnetic snap closure.\n\n• Full-grain leather\n• Unlined interior\n• Magnetic snap closure\n• Interior zip pocket\n• Dimensions: 40cm x 30cm x 15cm",
+      "vendor": "ÉLAN",
+      "productType": "Bags",
+      "tags": ["accessories", "bags", "leather", "tote", "new", "demo"],
+      "collections": ["accessories", "new-in", "all"],
+      "price": "349.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80",
+        "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800&q=80"
+      ],
+      "variants": {
+        "color": ["Black", "Tan", "Burgundy"]
+      }
+    },
+    {
+      "handle": "silk-square-scarf",
+      "title": "Silk Square Scarf",
+      "description": "A luxurious silk scarf with hand-rolled edges. Features an original print designed exclusively for ÉLAN.\n\n• 100% mulberry silk\n• Hand-rolled edges\n• Exclusive print\n• Dimensions: 90cm x 90cm",
+      "vendor": "ÉLAN",
+      "productType": "Accessories",
+      "tags": ["accessories", "scarves", "silk", "demo"],
+      "collections": ["accessories", "all"],
+      "price": "89.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&q=80",
+        "https://images.unsplash.com/photo-1609709295948-17d77cb2a69b?w=800&q=80"
+      ],
+      "variants": {
+        "color": ["Navy Print", "Burgundy Print", "Ivory Print"]
+      }
+    },
+    {
+      "handle": "minimalist-leather-watch",
+      "title": "Minimalist Leather Watch",
+      "description": "A refined timepiece with a clean dial and premium leather strap. Swiss quartz movement ensures precision timekeeping.\n\n• Swiss quartz movement\n• Stainless steel case\n• Sapphire crystal\n• Italian leather strap\n• Water resistant to 30m",
+      "vendor": "ÉLAN",
+      "productType": "Watches",
+      "tags": ["accessories", "watches", "leather", "minimalist", "demo"],
+      "collections": ["accessories", "all"],
+      "price": "299.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800&q=80",
+        "https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=800&q=80"
+      ],
+      "variants": {
+        "color": ["Silver/Black Strap", "Gold/Brown Strap"]
+      }
+    },
+    {
+      "handle": "leather-belt",
+      "title": "Classic Leather Belt",
+      "description": "A timeless belt in full-grain leather with a solid brass buckle. Hand-stitched edges and a subtle logo emboss.\n\n• Full-grain leather\n• Solid brass buckle\n• Hand-stitched edges\n• Width: 3cm",
+      "vendor": "ÉLAN",
+      "productType": "Accessories",
+      "tags": ["accessories", "belts", "leather", "demo"],
+      "collections": ["accessories", "all"],
+      "price": "79.00",
+      "compareAtPrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=800&q=80",
+        "https://images.unsplash.com/photo-1608234807905-4466023792f5?w=800&q=80"
+      ],
+      "variants": {
+        "size": ["80", "85", "90", "95", "100", "105"],
+        "color": ["Black", "Brown"]
+      }
+    }
+  ]
+}

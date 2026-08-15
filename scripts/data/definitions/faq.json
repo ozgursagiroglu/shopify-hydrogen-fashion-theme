@@ -1,0 +1,47 @@
+{
+  "name": "FAQ",
+  "type": "faq",
+  "displayNameKey": "question",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "question",
+      "name": "Question",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "answer",
+      "name": "Answer",
+      "type": "multi_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "category",
+      "name": "Category",
+      "description": "One of: shipping, returns, orders, products, account",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "order",
+      "name": "Display Order",
+      "type": "number_integer",
+      "required": false,
+      "validations": [
+        {
+          "name": "min",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

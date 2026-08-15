@@ -1,0 +1,51 @@
+{
+  "name": "shopify-hydrogen-fashion-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ada ÉLAN — a production-ready Shopify Hydrogen storefront theme for premium fashion brands. Editorial design system, i18n with RTL, wishlist, compare, quick view, reviews, and a Shopify seeding CLI.",
+  "license": "MIT",
+  "author": "Özgür Sağıroğlu (https://github.com/ozgursagiroglu)",
+  "homepage": "https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ozgursagiroglu/shopify-hydrogen-fashion-theme/issues"
+  },
+  "keywords": [
+    "shopify",
+    "hydrogen",
+    "shopify-hydrogen",
+    "headless-commerce",
+    "storefront",
+    "ecommerce",
+    "fashion",
+    "theme",
+    "starter-kit",
+    "react-router",
+    "tailwindcss",
+    "typescript",
+    "oxygen",
+    "storefront-api"
+  ],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev": "yarn --cwd hydrogen dev",
+    "build": "yarn --cwd hydrogen build",
+    "preview": "yarn --cwd hydrogen preview",
+    "lint": "yarn --cwd hydrogen lint",
+    "typecheck": "yarn --cwd hydrogen typecheck",
+    "test": "yarn --cwd hydrogen test",
+    "test:coverage": "yarn --cwd hydrogen test:coverage",
+    "test:e2e": "yarn --cwd hydrogen test:e2e",
+    "storybook": "yarn --cwd hydrogen storybook",
+    "setup": "yarn --cwd scripts setup",
+    "seed": "yarn --cwd scripts seed",
+    "seed:all": "yarn --cwd scripts seed:all",
+    "validate": "yarn --cwd scripts validate"
+  }
+}

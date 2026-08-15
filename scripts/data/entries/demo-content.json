@@ -1,0 +1,485 @@
+{
+  "homepage_hero": [
+    {
+      "handle": "main-hero",
+      "fields": {
+        "title": "New Season Collection",
+        "subtitle": "Discover timeless elegance in our latest arrivals. Curated pieces designed for the modern wardrobe.",
+        "background_image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=1920&q=80",
+        "primary_cta_text": "Shop Women",
+        "primary_cta_url": "/collections/women",
+        "secondary_cta_text": "Shop Men",
+        "secondary_cta_url": "/collections/men",
+        "height": "large"
+      }
+    }
+  ],
+  "feature_banner": [
+    {
+      "handle": "brand-story",
+      "fields": {
+        "title": "Crafted with Care, Designed to Last",
+        "subtitle": "We believe in slow fashion. Every piece is made with premium materials and timeless design.",
+        "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=1920&q=80",
+        "cta_text": "Our Story",
+        "cta_url": "/about",
+        "alignment": "center"
+      }
+    }
+  ],
+  "press_feature": [
+    {
+      "handle": "fashion-weekly",
+      "fields": {
+        "name": "Fashion Weekly",
+        "logo_text": "FASHION WEEKLY",
+        "quote": "A fresh approach to modern elegance that redefines contemporary fashion.",
+        "is_featured": true
+      }
+    },
+    {
+      "handle": "style-magazine",
+      "fields": {
+        "name": "Style Magazine",
+        "logo_text": "STYLE",
+        "quote": "Timeless pieces for the contemporary wardrobe"
+      }
+    },
+    {
+      "handle": "mode-journal",
+      "fields": {
+        "name": "Mode Journal",
+        "logo_text": "MODE",
+        "quote": "Where craftsmanship meets design"
+      }
+    },
+    {
+      "handle": "luxe-living",
+      "fields": {
+        "name": "Luxe Living",
+        "logo_text": "LUXE",
+        "quote": "Exceptional quality, refined aesthetic"
+      }
+    },
+    {
+      "handle": "atelier-daily",
+      "fields": {
+        "name": "Atelier Daily",
+        "logo_text": "ATELIER",
+        "quote": "The new standard in sustainable luxury"
+      }
+    },
+    {
+      "handle": "couture-magazine",
+      "fields": {
+        "name": "Couture Magazine",
+        "logo_text": "COUTURE",
+        "quote": "Fashion forward, planet conscious"
+      }
+    }
+  ],
+  "lookbook_item": [
+    {
+      "handle": "autumn-essentials",
+      "fields": {
+        "title": "Autumn Essentials",
+        "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&q=80",
+        "url": "/collections/autumn",
+        "order": 1
+      }
+    },
+    {
+      "handle": "office-ready",
+      "fields": {
+        "title": "Office Ready",
+        "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+        "url": "/collections/workwear",
+        "order": 2
+      }
+    },
+    {
+      "handle": "weekend-casual",
+      "fields": {
+        "title": "Weekend Casual",
+        "image": "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?w=800&q=80",
+        "url": "/collections/casual",
+        "order": 3
+      }
+    }
+  ],
+  "split_hero": [
+    {
+      "handle": "women-panel",
+      "fields": {
+        "title": "Women",
+        "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=1200&q=80",
+        "cta_text": "Shop Now",
+        "cta_url": "/collections/women",
+        "position": "left"
+      }
+    },
+    {
+      "handle": "men-panel",
+      "fields": {
+        "title": "Men",
+        "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=1200&q=80",
+        "cta_text": "Shop Now",
+        "cta_url": "/collections/men",
+        "position": "right"
+      }
+    }
+  ],
+  "testimonial": [
+    {
+      "handle": "review-alexandra",
+      "fields": {
+        "name": "Alexandra M.",
+        "location": "London, UK",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+        "rating": 5,
+        "text": "The quality of these pieces is unmatched. Every garment feels luxurious and the attention to detail is exceptional. I've received so many compliments!",
+        "verified": true
+      }
+    },
+    {
+      "handle": "review-james",
+      "fields": {
+        "name": "James L.",
+        "location": "New York, USA",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
+        "rating": 5,
+        "text": "Finally found a brand that understands modern minimalism. The fit is perfect and the materials are premium. Worth every penny.",
+        "verified": true
+      }
+    },
+    {
+      "handle": "review-sophie",
+      "fields": {
+        "name": "Sophie R.",
+        "location": "Paris, France",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
+        "rating": 5,
+        "text": "Sustainable fashion that doesn't compromise on style. I love knowing that my wardrobe choices are making a positive impact.",
+        "verified": true
+      }
+    },
+    {
+      "handle": "review-marcus",
+      "fields": {
+        "name": "Marcus T.",
+        "location": "Berlin, Germany",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80",
+        "rating": 4,
+        "text": "Clean designs that work for both office and weekend. The versatility is incredible. Shipping was fast and packaging was beautiful.",
+        "verified": true
+      }
+    }
+  ],
+  "instagram_post": [
+    {
+      "handle": "insta-1",
+      "fields": {
+        "caption": "Effortless elegance for every occasion",
+        "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=400&q=80",
+        "likes": 2453,
+        "comments": 89,
+        "url": "https://instagram.com"
+      }
+    },
+    {
+      "handle": "insta-2",
+      "fields": {
+        "caption": "New arrivals just landed",
+        "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&q=80",
+        "likes": 1876,
+        "comments": 56,
+        "url": "https://instagram.com"
+      }
+    },
+    {
+      "handle": "insta-3",
+      "fields": {
+        "caption": "Summer vibes in our latest collection",
+        "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=400&q=80",
+        "likes": 3201,
+        "comments": 124,
+        "url": "https://instagram.com"
+      }
+    },
+    {
+      "handle": "insta-4",
+      "fields": {
+        "caption": "Behind the scenes at our photo shoot",
+        "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=400&q=80",
+        "likes": 1543,
+        "comments": 42,
+        "url": "https://instagram.com"
+      }
+    },
+    {
+      "handle": "insta-5",
+      "fields": {
+        "caption": "Style inspiration for the weekend",
+        "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&q=80",
+        "likes": 2891,
+        "comments": 98,
+        "url": "https://instagram.com"
+      }
+    },
+    {
+      "handle": "insta-6",
+      "fields": {
+        "caption": "Timeless pieces that never go out of style",
+        "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400&q=80",
+        "likes": 2134,
+        "comments": 67,
+        "url": "https://instagram.com"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "handle": "faq-shipping-options",
+      "fields": {
+        "question": "What are your shipping options?",
+        "answer": "We offer standard shipping (5-7 business days) and express shipping (2-3 business days). Free standard shipping on orders over $100.",
+        "category": "shipping",
+        "order": 1
+      }
+    },
+    {
+      "handle": "faq-international-shipping",
+      "fields": {
+        "question": "Do you ship internationally?",
+        "answer": "Yes, we ship to over 50 countries worldwide. International shipping rates and delivery times vary by destination.",
+        "category": "shipping",
+        "order": 2
+      }
+    },
+    {
+      "handle": "faq-return-policy",
+      "fields": {
+        "question": "What is your return policy?",
+        "answer": "We accept returns within 30 days of purchase. Items must be unworn, unwashed, and in original condition with tags attached.",
+        "category": "returns",
+        "order": 1
+      }
+    },
+    {
+      "handle": "faq-initiate-return",
+      "fields": {
+        "question": "How do I initiate a return?",
+        "answer": "Log into your account, go to Order History, select the order, and click 'Return Items'. You'll receive a prepaid shipping label via email.",
+        "category": "returns",
+        "order": 2
+      }
+    },
+    {
+      "handle": "faq-exchange-size",
+      "fields": {
+        "question": "Can I exchange an item for a different size?",
+        "answer": "Yes, exchanges are free for domestic orders. Simply initiate a return and place a new order for the correct size.",
+        "category": "returns",
+        "order": 3
+      }
+    },
+    {
+      "handle": "faq-payment-methods",
+      "fields": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, Google Pay, and Shop Pay.",
+        "category": "orders",
+        "order": 1
+      }
+    },
+    {
+      "handle": "faq-track-order",
+      "fields": {
+        "question": "How do I track my order?",
+        "answer": "Once your order ships, you'll receive a confirmation email with tracking information. You can also track your order in your account dashboard.",
+        "category": "orders",
+        "order": 2
+      }
+    },
+    {
+      "handle": "faq-find-size",
+      "fields": {
+        "question": "How do I find my size?",
+        "answer": "Each product page includes a size guide with detailed measurements. If you're between sizes, we recommend sizing up for a relaxed fit or down for a more fitted look.",
+        "category": "products",
+        "order": 1
+      }
+    },
+    {
+      "handle": "faq-sustainable",
+      "fields": {
+        "question": "Are your products sustainable?",
+        "answer": "Yes, we're committed to sustainability. We use organic and recycled materials where possible, and our packaging is 100% recyclable.",
+        "category": "products",
+        "order": 2
+      }
+    },
+    {
+      "handle": "faq-reset-password",
+      "fields": {
+        "question": "How do I reset my password?",
+        "answer": "Click 'Forgot Password' on the login page, enter your email, and follow the instructions in the reset email you'll receive.",
+        "category": "account",
+        "order": 1
+      }
+    }
+  ],
+  "newsletter_section": [
+    {
+      "handle": "homepage-newsletter",
+      "fields": {
+        "overline": "Stay Updated",
+        "title": "Join Our Community",
+        "description": "Get exclusive access to new arrivals, special offers, and style inspiration delivered to your inbox.",
+        "background_image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&h=800&fit=crop",
+        "benefit_1": "Welcome Discount",
+        "benefit_2": "Early Access",
+        "benefit_3": "New Arrivals First",
+        "privacy_notice": "We respect your privacy. Unsubscribe anytime."
+      }
+    }
+  ],
+  "about_page": [
+    {
+      "handle": "main-about",
+      "fields": {
+        "title": "About ÉLAN",
+        "subtitle": "Where timeless design meets conscious craftsmanship",
+        "hero_image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1920&q=80",
+        "mission_title": "Our Mission",
+        "mission_text": "We believe fashion should be timeless, not temporary. Our mission is to create pieces that transcend seasons and trends, designed with care and built to last. Every garment is a statement of quality, crafted from premium materials with meticulous attention to detail.",
+        "story_title": "Our Story",
+        "story_text": "Founded in 2020, ÉLAN was born from a simple belief: that modern fashion could embrace both elegance and sustainability. We started with a single collection of essential pieces, each designed to work seamlessly together and stand the test of time.\n\nToday, we continue that vision—creating clothing that honors both heritage craftsmanship and contemporary design. From our atelier to your wardrobe, every piece tells a story of quality, care, and conscious creation.",
+        "story_image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=1200&q=80",
+        "values_title": "What Drives Us"
+      }
+    }
+  ],
+  "brand_value": [
+    {
+      "handle": "quality-craftsmanship",
+      "fields": {
+        "title": "Quality Craftsmanship",
+        "description": "Every piece is crafted with premium materials and exceptional attention to detail. We work with skilled artisans who share our commitment to excellence.",
+        "icon": "sparkles",
+        "order": 1
+      }
+    },
+    {
+      "handle": "timeless-design",
+      "fields": {
+        "title": "Timeless Design",
+        "description": "We create pieces that transcend fleeting trends. Our designs are rooted in classic silhouettes with modern refinements that ensure longevity.",
+        "icon": "clock",
+        "order": 2
+      }
+    },
+    {
+      "handle": "sustainable-practice",
+      "fields": {
+        "title": "Sustainable Practice",
+        "description": "Committed to responsible fashion, we use organic and recycled materials wherever possible and ensure ethical production practices throughout our supply chain.",
+        "icon": "leaf",
+        "order": 3
+      }
+    },
+    {
+      "handle": "conscious-creation",
+      "fields": {
+        "title": "Conscious Creation",
+        "description": "We believe in slow fashion—producing thoughtfully, in limited quantities. Each collection is carefully curated to minimize waste and maximize value.",
+        "icon": "heart",
+        "order": 4
+      }
+    }
+  ],
+  "store_location": [
+    {
+      "handle": "paris-marais",
+      "fields": {
+        "name": "ÉLAN Paris — Le Marais",
+        "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80",
+        "address_line1": "45 Rue des Francs Bourgeois",
+        "city": "Paris",
+        "postal_code": "75004",
+        "country": "France",
+        "phone": "+33 1 42 77 89 12",
+        "email": "marais@elan-store.com",
+        "hours": "Monday - Saturday: 11:00 - 19:00\nSunday: 13:00 - 18:00",
+        "latitude": "48.8566",
+        "longitude": "2.3522",
+        "features": "Personal Styling\nAlterations Service\nPrivate Shopping\nClick & Collect",
+        "order": 1
+      }
+    },
+    {
+      "handle": "london-soho",
+      "fields": {
+        "name": "ÉLAN London — Soho",
+        "image": "https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&q=80",
+        "address_line1": "28 Beak Street",
+        "city": "London",
+        "postal_code": "W1F 9RW",
+        "country": "United Kingdom",
+        "phone": "+44 20 7287 4321",
+        "email": "soho@elan-store.com",
+        "hours": "Monday - Saturday: 10:00 - 19:00\nSunday: 12:00 - 18:00",
+        "latitude": "51.5074",
+        "longitude": "-0.1278",
+        "features": "Personal Styling\nGift Wrapping\nClick & Collect\nTax-Free Shopping",
+        "order": 2
+      }
+    },
+    {
+      "handle": "new-york-soho",
+      "fields": {
+        "name": "ÉLAN New York — SoHo",
+        "image": "https://images.unsplash.com/photo-1572883454114-1cf0031ede2a?w=800&q=80",
+        "address_line1": "125 Greene Street",
+        "city": "New York",
+        "postal_code": "10012",
+        "country": "United States",
+        "phone": "+1 212 555 0187",
+        "email": "soho@elan-store.com",
+        "hours": "Monday - Saturday: 11:00 - 20:00\nSunday: 12:00 - 18:00",
+        "latitude": "40.7128",
+        "longitude": "-74.0060",
+        "features": "Personal Styling\nAlterations Service\nSame-Day Delivery\nClick & Collect",
+        "order": 3
+      }
+    }
+  ],
+  "lookbook_collection": [
+    {
+      "handle": "spring-summer-2025",
+      "fields": {
+        "title": "Spring/Summer 2025",
+        "subtitle": "A breath of fresh air",
+        "description": "Our Spring/Summer 2025 collection celebrates lightness and movement. Featuring airy silhouettes in natural linens and organic cottons, each piece is designed for effortless elegance under the sun.",
+        "hero_image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1920&q=80",
+        "season": "SS25",
+        "year": 2025,
+        "featured": true,
+        "order": 1
+      }
+    },
+    {
+      "handle": "autumn-winter-2024",
+      "fields": {
+        "title": "Autumn/Winter 2024",
+        "subtitle": "Refined warmth",
+        "description": "Discover our Autumn/Winter 2024 collection, where classic tailoring meets cozy textures. Rich earth tones and luxurious wools create a sophisticated seasonal wardrobe.",
+        "hero_image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1920&q=80",
+        "season": "AW24",
+        "year": 2024,
+        "featured": false,
+        "order": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "About Page",
+  "type": "about_page",
+  "displayNameKey": "title",
+  "storefrontAccess": "PUBLIC_READ",
+  "capabilities": {
+    "translatable": {
+      "enabled": true
+    }
+  },
+  "fieldDefinitions": [
+    {
+      "key": "title",
+      "name": "Page Title",
+      "description": "Main heading for the about page",
+      "type": "single_line_text_field",
+      "required": true,
+      "validations": []
+    },
+    {
+      "key": "subtitle",
+      "name": "Subtitle",
+      "description": "Supporting headline text",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "hero_image",
+      "name": "Hero Image",
+      "description": "Main hero image for the about page",
+      "type": "file_reference",
+      "required": false,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "mission_title",
+      "name": "Mission Title",
+      "description": "Title for the mission/vision section",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "mission_text",
+      "name": "Mission Text",
+      "description": "Mission statement or vision text",
+      "type": "multi_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "story_title",
+      "name": "Story Title",
+      "description": "Title for the brand story section",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "story_text",
+      "name": "Story Text",
+      "description": "Brand story content",
+      "type": "multi_line_text_field",
+      "required": false,
+      "validations": []
+    },
+    {
+      "key": "story_image",
+      "name": "Story Image",
+      "description": "Supporting image for the story section",
+      "type": "file_reference",
+      "required": false,
+      "validations": [
+        {
+          "name": "file_type_options",
+          "value": "[\"Image\"]"
+        }
+      ]
+    },
+    {
+      "key": "values_title",
+      "name": "Values Section Title",
+      "description": "Title for the values/principles section",
+      "type": "single_line_text_field",
+      "required": false,
+      "validations": []
+    }
+  ]
+}
