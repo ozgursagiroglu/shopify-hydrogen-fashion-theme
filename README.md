@@ -30,7 +30,7 @@ seeding CLI so your store isn't empty on first run.
 
 | Homepage | Product |
 | --- | --- |
-| ![Homepage](docs/images/homepage.webp) | ![Product detail page](docs/images/product.webp) |
+| ![Full homepage scroll](docs/images/homepage-full.webp) | ![Product detail page](docs/images/product.webp) |
 
 | Collection | Search |
 | --- | --- |
@@ -46,7 +46,7 @@ seeding CLI so your store isn't empty on first run.
 | ![Category grid](docs/images/section-category-grid.webp) | ![Product carousel](docs/images/section-product-carousel.webp) |
 | ![Lookbook](docs/images/section-lookbook.webp) | ![Testimonials](docs/images/section-testimonials.webp) |
 | ![Press logos](docs/images/section-press.webp) | ![Instagram feed](docs/images/section-instagram.webp) |
-| ![Newsletter](docs/images/section-newsletter.webp) | ![Full homepage scroll](docs/images/homepage-full.webp) |
+| ![Newsletter](docs/images/section-newsletter.webp) | ![Homepage above the fold](docs/images/homepage.webp) |
 
 ### Cart & merchandising
 
